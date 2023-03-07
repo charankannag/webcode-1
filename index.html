@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEMON</title>
+    <link rel="shortcut icon"
+    type="image/x-icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiZ3oZaTkdSb1ZqPzf-x__id_vTliLKfC9bPmdfxA&s
+    "
+    sizes="16x16 24x24 32x32 48x48" />
+    <style>
+        .pokemon-container {
+          display: flex;
+          flex-wrap: wrap;
+        }
+  
+        .card {
+          width: 150px;
+          min-height: 100px;
+          background:aqua;
+          border-radius: 10px;
+          margin: 10px;
+        }
+      </style>
+    </head>
+<body>
+    <h1>pokemon</h1>
+    <input id="search" onkeyup="handleSearch(this);" />
+    <div class="pokemon-container" id="pokemon-container"></div>
+    <button>previous</button><button>next</button>
+    <script src="/script.js"></script>
+</body>
+</html>
